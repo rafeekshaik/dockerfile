@@ -6,5 +6,5 @@ ENV course="DevOps with AWS" \
 #here user1 is key, someuser is default value
 ARG USERNAME=sivakumar
 ENV USERNAME=${USERNAME}
-RUN echo "hello username=${USERNAME},image version=${version}""
+RUN echo "hello username=${USERNAME},image version=${version}"
 CMD ["sleep", "1000"]
